@@ -21,7 +21,8 @@ const Team = () => {
     }, [open])
 
     return (
-        <section className="relative bg-custom-black py-40 sm:py32">
+        <section className="relative bg-custom-black py-16 sm:py32">
+            <h2 className="text-4xl font-bold mb-8 text-center">Equipo</h2>
             <div className="flex flex-wrap justify-center gap-10 max-w-screen-2xl mx-auto">
                 {
                     bios.map(bio => {
@@ -85,14 +86,14 @@ const Team = () => {
                                 cursor-default 
                                 rounded-lg 
                                 shadow-2xl
-                                grid
-                                grid-cols-12
-                                gap-8
+                                md:grid
+                                md:grid-cols-12
+                                md:gap-8
                                 overflow-x-hidden
                                 overflow-y-auto
                                 "
                             >
-                                <motion.div layoutId={`head-con-${selected.id}`} className="hidden md:flex justify-center col-span-2">
+                                <motion.div layoutId={`head-con-${selected.id}`} className="flex md:justify-center col-span-2 mb-4 md:mb-0">
                                     <motion.div layoutId={`head-${selected.id}`} className="relative rounded-full overflow-hidden min-w-[100px] h-[100px]">
                                         <Image className="object-cover" src={selected.img} alt="" fill />
                                     </motion.div>

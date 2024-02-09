@@ -8,8 +8,8 @@ const Menu = ({ setOpen }: { setOpen: Dispatch<SetStateAction<boolean>> }) => {
 
     return (
         <div className="absolute p-6 right-0 top-8 rounded-md bg-custom-alt-black grid gap-4">
-            <Link className="uppercase" href="/consultoria">consultoria</Link>
-            <Link className="uppercase" href="/coaching">coaching</Link>
+            <Link className="uppercase font-bold" href="/consultoria">consultoria</Link>
+            <Link className="uppercase font-bold" href="/coaching">coaching</Link>
         </div>
     )
 }

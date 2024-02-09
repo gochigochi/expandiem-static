@@ -2,8 +2,8 @@ import Image from "next/image"
 
 const Coaching = () => {
     return (
-        <article className="bg-custom-alt-black min-h-screen py-32">
-            <div className="w-screen max-w-screen-md mx-auto">
+        <article className="bg-custom-alt-black min-h-screen px-4 py-24 sm:py-32">
+            <div className="w-full max-w-screen-md mx-auto">
                 <section className="relative w-full h-[20rem]">
                     <Image
                         className="object-cover rounded-md"

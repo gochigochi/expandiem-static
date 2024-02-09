@@ -1,6 +1,7 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
 import NavBar from './_components/layout/nav_bar/NavBar'
+import Footer from './_components/layout/footer/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
         <main className='overflow-x-hidden'>
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   )
