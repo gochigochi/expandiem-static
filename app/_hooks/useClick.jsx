@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 
-const useClick = (handleClick: (event: React.MouseEvent<HTMLDivElement> & { target: HTMLElement }) => void) => {
+const useClick = (handleClick) => {
 
     useEffect(() => {
 

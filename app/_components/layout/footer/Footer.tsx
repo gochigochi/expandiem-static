@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="flex flex-wrap gap-10 justify-center md:justify-between">
                     <div className="grow shrink-0 basis-96 text-center md:text-left">
                         <p className="text-2xl md:text-3xl font-bold mb-2">Dejanos tu correo para que podamos contactarte</p>
-                        <p className="md:text-xl">O contactanos a info@expandiem.com</p>
+                        <p className="md:text-xl">O contactanos a rodrigo@expandiem.com</p>
                     </div>
                     <ContactForm />
                 </div>

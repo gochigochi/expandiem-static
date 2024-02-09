@@ -21,7 +21,7 @@ export const bios = [
         ],
         statement: '',
         // img: 'https://drive.google.com/uc?export=view&id=1eY97SUTdSabSaH3-JSErl02NhhOblgva',
-        img: '/assets/conv.jpg'
+        img: '/assets/rodrigo.jpg'
     },
     {
         id: "2",
@@ -36,7 +36,7 @@ export const bios = [
         ],
         statement: '',
         // img: 'https://drive.google.com/uc?export=view&id=1eY97SUTdSabSaH3-JSErl02NhhOblgva',
-        img: '/assets/conv.jpg'
+        img: '/assets/mecha.png'
     },
     {
         id: "3",
