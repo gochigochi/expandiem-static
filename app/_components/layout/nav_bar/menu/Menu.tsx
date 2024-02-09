@@ -1,6 +1,6 @@
 import { Dispatch, SetStateAction } from 'react'
 import Link from "next/link"
-import useClick from '@/app/hooks/useClick'
+import useClick from '@/app/_hooks/useClick'
 
 const Menu = ({ setOpen }: { setOpen: Dispatch<SetStateAction<boolean>> }) => {
 
